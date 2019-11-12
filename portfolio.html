@@ -53,7 +53,7 @@
 <article class="grid-container">
 <div class="">
 <h1>Portfolio</h1>
-<p class="lead">Hobby projects and miscellaneous code.</p>
+<p class="lead">Hobby and work projects, miscellaneous code.</p>
 </div>
 </article>
 </div>
@@ -99,11 +99,16 @@ Finland. Source code (in Java): <a href="https://github.com/moflac/railtrack">Ra
 </div>
 </div>
 <p>
-An experiment to make a web based stereo panorama viewer for pictures captured with Google's Cardboard Camera app.<br>
-Uses A-Frame, which is a JavaScript web framework for building VR environments. Stereo viewing works with mobile web browsers like Chrome and
+An experiment to make a web based stereo VR panorama viewer for pictures captured with Google's Cardboard Camera app.<br>
+Uses A-Frame, which is a JavaScript web framework for building VR environments. Stereo VR viewing works with mobile web browsers like Chrome and
 Firefox.<br>
 Monoscopic viewing also with desktop browsers. Has been tested and worked with Oculus Rift.<br>
 Try it <a href="https://moflac.github.io/360-stereo/">here</a>. <a href="https://github.com/moflac/360-stereo">Source</a>
+<ul>
+	<li><a href="https://aframe.io/">A-Frame</a></li>
+	<li><a href="https://play.google.com/store/apps/details?id=com.google.vr.cyclops">Cardboard Camera</a></li>
+</ul>
+	
 </p>
 <br>
 
@@ -120,10 +125,62 @@ Try it <a href="https://moflac.github.io/360-stereo/">here</a>. <a href="https:/
 </div>
 
 </div>
+<p>
 A very light weight temperature logger. A Python script records room temperature from a temperature sensor and outside temperature from a weather API.<br>
 Results are saved to a constant size round robin database. Rrdtool is used to generate a graph in png format which can be used in a web page.
 Lighttpd is used as the web server. <a href="https://github.com/moflac/temperature">Source</a>
-
+<ul>
+	<li>Lighttpd</li>
+	<li>Python, PHP, html</li>
+	<li><a href="https://oss.oetiker.ch/rrdtool/">RRDTool</a></li>
+</ul>
+</p>
+<br>
+<h4>HandsOn</h4>
+<div class="grid-x grid-margin-x small-up-2 medium-up-4 large-up-4">
+<div class="cell">
+<a href="img/handson/ho1.jpg" class="thumbnail"><img src="img/handson/ho1.jpg"></a>
+</div>
+<div class="cell">
+<a href="img/handson/ho2.jpg" class="thumbnail"><img src="img/handson/ho2.jpg"></a>
+</div>
+<div class="cell">
+<a href="img/handson/ho4.jpg" class="thumbnail"><img src="img/handson/ho4.jpg"></a>
+</div>
+</div>
+<p>
+Research project at Tampere University of Technology. A part of the project was to create and test a haptic glove utilizing 
+<a href="https://en.wikipedia.org/wiki/Pneumatic_artificial_muscles">pneumatic artificial muscles</a>. The device used one PAM for each
+finger in one hand and was controlled with a PC. The control PC was connected to a computer cluster driving a VR environment.
+<ul>
+	<li>VR environment created and running with Virtools
+	<li>haptic glove control and interface to Virtools with C++ and <a href="http://vrpn.org/">VRPN</a>
+	<li>PC cluster running NVidia Quadro cards
+</ul>
+</p> 
+<br>
+<h4>Simulator sickness reduction</h4>
+<div class="grid-x grid-margin-x small-up-2 medium-up-4 large-up-4">
+<div class="cell">
+<a href="img/simulator/yleiskuvaed.jpg" class="thumbnail"><img src="img/simulator/yleiskuvaed.jpg"></a>
+</div>
+<div class="cell">
+<a href="img/simulator/kuljettaja.jpg" class="thumbnail"><img src="img/simulator/kuljettaja.jpg"></a>
+</div>
+<div class="cell">
+<a href="img/simulator/dmp018.jpg" class="thumbnail"><img src="img/simulator/dmp018.jpg"></a>
+</div>
+<div class="cell">
+<a href="img/simulator/SSQ23.jpg" class="thumbnail"><img src="img/simulator/SSQ23.jpg"></a>
+</div>
+</div>
+<p>
+Research project at Tampere University of Technology aimed at reducing simulator sickness caused by a bus simulator to its users.
+Experiments aimed to reduce simulator sicness were conducted after thorough literature review on subject. 
+Successful means to reduce sickness were found and implemented in bus simulator training. Master's thesis made from the research:
+<a href="https://docplayer.fi/6844216-Marko-ohra-aho-simulaattorisairauteen-vaikuttavien-tekijoiden-vahentaminen-bussisimulaattoriymparistossa-diplomityo.html">
+Simulaattorisairauteen vaikuttavien tekijöiden vähentäminen bussisimulaattoriympäristössä</a>
+</p>
 
 </article>
 </div>
